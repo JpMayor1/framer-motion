@@ -7,3 +7,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Hide the scrollbar by default for both axes */
+::-webkit-scrollbar {
+    width: 6px; /* Adjust the width as needed for the vertical scrollbar */
+    height: 6px; /* Adjust the height as needed for the horizontal scrollbar */
+    background: transparent; /* Set the background to transparent */
+}
+
+/* Define the vertical scrollbar track style */
+::-webkit-scrollbar-track {
+    background: transparent; /* Set the background to transparent */
+}
+
+/* Define the vertical scrollbar thumb style */
+::-webkit-scrollbar-thumb {
+    background: #211951; /* Set the color of the thumb */
+    border-radius: 6px; /* Add rounded corners to the thumb */
+}
